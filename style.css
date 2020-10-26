@@ -1,0 +1,119 @@
+
+/* class for the header section */
+/* .hd-center, .hd-center h1, .hd-center p{
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #99002C;
+  color: #D2D2D2;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+/* General Styles */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+img.rounded {
+  border-radius: 10px;
+}
+
+main h2 {
+  font-size:  28px;
+  font-weight: 400;
+}
+
+main h3{
+  font-size: 22px;
+  font-weight: 400;
+}
+
+main p {
+  line-height: 1.5em;
+  margin-bottom: 0em;
+}
+
+/* Header */
+
+header {
+  background-color: #99002C;
+  margin-bottom: 40px;
+  display: block;
+}
+
+header h1{
+  color: #D2D2D2;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 56px;
+}
+
+/* Main */
+
+main .wrapper h2 {
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+main .intro {
+  font-size: 24px;
+  color: #6b655b;;
+}
+
+/* Groups and Items (Mobile First) */
+
+.wrapper {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/* Groups and Item (desktop */
+
+@media all and (min-width: 800px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
+
+/* Article sections */
+
+#home, #portfolio, #contact {
+  margin-bottom: 120px;
+}
+
+/* About article */
+
+#about {
+  background-color: #D2D2D2;
+  padding: 20px 0 30px 0;
+  margin: 120px 0;
+}
